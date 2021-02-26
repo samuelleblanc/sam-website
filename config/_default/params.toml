@@ -22,7 +22,7 @@ day_night = true
 #   Guide to font sets: https://wowchemy.com/docs/customization/#fonts
 #   Browse the latest built-in font sets at https://github.com/wowchemy/wowchemy-hugo-modules/tree/master/wowchemy/data/fonts
 #   Browse user installed font sets in `data/fonts/`
-font = ""
+font = "samfont"
 
 # Choose a font size.
 # Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
@@ -80,6 +80,9 @@ edit_page = {repo_url = "", content_dir = "", repo_branch = "main", editable = {
 # Show related content at the bottom of pages?
 show_related = {book = true, page = false, post = true, project = true, publication = true, talk = true}
 
+#custom_css = ['css/custom.css']
+#plugins_css = ['custom']
+
 ############################
 ## Contact details
 ##
@@ -104,10 +107,10 @@ directions = ""
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
-office_hours = [""]
+# office_hours = [""]
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = ""
+# appointment_url = ""
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
@@ -115,7 +118,7 @@ contact_links = [
   {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/DrLeBlanc_NASA"},
   {icon = "instagram", icon_pack = "fab", name = "My instagram", link = "https://www.instagram.com/samuel.elie.leblanc/"},
 #  {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
-  {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
+#  {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
   ]
 
