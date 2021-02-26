@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | Samuel E. LeBlanc</title>
+    <link>https://www.samueleleblanc.com/talk/</link>
+      <atom:link href="https://www.samueleleblanc.com/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021</copyright>
+    <image>
+      <url>https://www.samueleleblanc.com/media/face_only.jpg</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://www.samueleleblanc.com/talk/</link>
+    </image>
+    
+  </channel>
+</rss>
