@@ -1,0 +1,128 @@
+# the bibtex file to load data from 
+
+bibtexfile = "mypublications.bib"
+
+# the build directory (relative path)
+
+builddir = "build"
+
+# When creating the mini bibtex file for each publication (accessed using the "cite" button)  
+# include the following entries:
+
+citebibtexentries = [ "author", "doi", "journal", "number", "pages", "title", "volume", "year",]
+
+# If url_pdf is not specified for a given publication, use the DOI (if available) to construct
+# url_pdf.
+
+url_pdf_usedoi = true
+
+# Default parameters for each publication. If "featured" or "math" are not specified for a
+# given publication use default values specified here instead.
+
+[defaults]
+  featured = false
+  math = true
+  publication_types = 0
+# The list of publications to create entries for
+
+[publications]
+  # The name of each publication (here: "ucsc_fda") is used to generate the directory name for
+  # the publication.
+  [publications.moving_lines]
+  bibtexkey = "samuel_leblanc_2018_1478126"
+  publication = "Zenodo"
+#  abstract = "Flight planning tool for NASA Airborne science, developed for use in the NASA Earth Venture (2) atmospheric science field mission: ORACLES [ObseRvations of Aerosols above CLouds and their intEractionS](https://espo.nasa.gov/oracles) and many other NASA airborne field missions"
+  # further optional entries may override the information obtained from bibtexfile or can be used 
+  # to specify optional entries like url_preprint etc.
+  # the following optional entries can be used (for formatting help, see examples in 
+  # hugo-academic):
+  #     title 
+  #     date
+  #     authors
+  #     publication_types
+  #     publication (to specify where publication was published, see hugo-academic)
+  #     publication_short
+  #     abstract
+  #     abstract_short
+  #     featured
+  #     projects
+  #     tags
+  #     doi
+  #     url_* (various entries like "url_preprint")
+  #     math
+  #     image (to provide a path to an image that will be copied to used as the featured.jpg or
+  #            featured.png image for the publication)
+  #featured = true
+  #abstract = "We present a technique that accurately approximates tangent linear and adjoint models for data assimilation applications using only evaluations of the nonlinear model. The approximation offers a simple way to create tangent linear and adjoint model code that is easily maintainable, as only major changes to the nonlinear model formulation necessitate modifications of the tangent linear or adjoint model code."
+  # date = "2018-11-13T00:00:00"
+
+  [publications.thesis]
+  bibtexkey = "Leblanc2014"
+  url = "https://scholar.colorado.edu/concern/graduate_thesis_or_dissertations/x059c7397"
+  doi = "https://scholar.colorado.edu/concern/graduate_thesis_or_dissertations/x059c7397"
+  [publications.calnex]
+  bibtexkey = "LeBlanc2012"
+  [publications.BAMS_ARM_SW]
+  bibtexkey = "Riihimaki2020"
+  [publications.OSAconf_DARE]
+  bibtexkey = "LeBlanc2011"
+  [publications.Concrete]
+  bibtexkey = "Zhang2008"
+  [publications.aerosol_above_adjacent_clouds]
+  bibtexkey = "Shinozuka2020"
+  title = "Daytime aerosol optical depth above low-level clouds is similar to that in adjacent clear skies at the same heights: airborne observation above the southeast Atlantic"
+  [publications.ORACLES_overview]
+  bibtexkey = "Redemann2020"
+  featured = true
+  [publications.ACAOD_Sayer]
+  bibtexkey = "Sayer2019"
+  [publications.4STAR_codes_2020]
+  bibtexkey = "Team2020"
+  [publications.MOC_DARE_ACAOD]
+  bibtexkey = "Kacenelenbogen2019"
+  [publications.BAMS_ARISE]
+  bibtexkey = "Smith2017"
+  [publications.ORACLES_model_obs]
+  bibtexkey = "Shinozuka2020a"
+  [publications.ARISE_MERRA2]
+  bibtexkey = "Rozenhaimer2018"
+  [publications.cloud_zenith_retri]
+  bibtexkey = "LeBlanc2015" 
+ 
+#
+# The following might not need to be edited
+#
+
+# Publication type.
+# Legend:
+# 0 = Uncategorized
+# 1 = Conference paper
+# 2 = Journal article
+# 3 = Manuscript
+# 4 = Report
+# 5 = Book
+# 6 = Book section
+
+# The values in publicationtype_mapping provide a mapping from bibtex types (prefaced with a "@")
+# back to the publication types listed above.
+
+[publicationtype_mapping]
+
+article = 2
+book = 5
+conference = 1
+inbook = 6
+incollection = 6
+inproceedings = 1
+techreport = 4
+
+[partials]
+
+header = '''+++
+#
+# created by build_publications.py
+#
+'''
+
+footer = '''+++
+'''

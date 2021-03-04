@@ -289,3 +289,11 @@ custom_js  = ["custom.js"]
 ############################
 [icon.pack]
   ai = true  # Academicons icon pack https://jpswalsh.github.io/academicons/
+
+
+############################
+## Instagram implementation
+############################
+[Instagram]
+  disable = true 
+  simple = false
