@@ -63,12 +63,14 @@ education:
   - course: MSc in Atmospheric and Oceanic Sciences
     course_short: MSc
     institution: University of Colorado - Boulder
-    institution_short: CU
+    link: https://www.colorado.edu/atoc/
+    institution_short: (CU)[https://www.colorado.edu/atoc/]
     year: 2011
     logo: ../logo/logo_CU.png
   - course: BSc in Physics
     course_short: BSc
     institution: University of Ottawa
+
     institution_short: UOttawa
     year: 2008
     logo: ../logo/logo_uottawa.png

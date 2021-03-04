@@ -3,7 +3,7 @@
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+weight = 6  # Order that this section will appear.
 
 title = "Experience"
 subtitle = ""
@@ -49,7 +49,7 @@ date_format = "Jan 2006"
   """
 
 [[experience]]
-  title = "Resaerch Assistant"
+  title = "Research Assistant"
   company = "Laboratory for Atmospheric and Space Physics, University of Colorado"
   company_url = "https://lasp.colorado.edu/home/science/atmospheric/radiation/"
   location = "Boulder, Colorado"

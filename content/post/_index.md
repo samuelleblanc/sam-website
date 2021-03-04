@@ -17,7 +17,7 @@ featured: true
 tags:
   - News
 image:
-  preview_only: true
+  preview_only: false
   filename: sam_landing_in_saotome.png
   caption: Sam arriving at Sao Tomé with the NASA P3 in the background
   focal_point: smart

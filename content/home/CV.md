@@ -9,7 +9,7 @@ title = "CV"
 subtitle = "Curriculum Vitae"
 
 # Order that this section will appear in.
-weight = 21
+weight = 5
 
 # CV location
 cv_pdf = "./files/LeBlanc.pdf"
@@ -33,7 +33,7 @@ group_logo2 = "logo/nasa_logo.png"
   course = "PhD in Atmospheric and Oceanic Sciences"
   course_short = "PhD"
   institution = "University of Colorado - Boulder"
-  institution_short = "CU"
+  institution_short = "[CU](https://www.colorado.edu/atoc/)"
   year = 2014
   logo = "/logo/logo_CU.png"
 
@@ -41,7 +41,7 @@ group_logo2 = "logo/nasa_logo.png"
   course = "MSc in Atmospheric and Oceanic Sciences"
   course_short = "MSc"
   institution = "University of Colorado - Boulder"
-  institution_short = "CU"
+  institution_short = "[CU](https://www.colorado.edu/atoc/)"
   year = 2011
   logo = "/logo/logo_CU.png"
 
@@ -49,7 +49,7 @@ group_logo2 = "logo/nasa_logo.png"
   course = "BSc in Physics"
   course_short = "BSc"
   institution = "University of Ottawa"
-  institution_short = "UOttawa"
+  institution_short = "[Uottawa](https://science.uottawa.ca/physics/)"
   year = 2008
   logo = "/logo/logo_uottawa.png"
 
