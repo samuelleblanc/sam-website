@@ -41,6 +41,9 @@ url_video = ""
 event_url = "https://doi.org/10.5194/acp-20-1565-2020"
 featured = true
 
+[header]
+  image = "publications/LeBlanc_2020_ACAOD_ORACLES.png"
+
 [image]
    image_src = "publications/LeBlanc_2020_ACAOD_ORACLES.png"
    placement = 3
