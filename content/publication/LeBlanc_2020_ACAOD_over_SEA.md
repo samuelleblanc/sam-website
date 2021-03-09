@@ -2,7 +2,7 @@
 draft = false
 abstract = "The southeast Atlantic during August–October experiences layers of smoke from biomass burning over marine stratocumulus clouds. Here we present the light attenuation of the smoke and its dependence in the spatial, vertical, and spectral domain through direct measurements from an airborne platform during September 2016. From our observations of this climatically important smoke, we found an average aerosol optical depth of 0.32 at 500 nm, slightly lower than comparative satellite measurements."
 abstract_short = ""
-authors = ["Samuel E LeBlanc",
+authors = ["Samuel LeBlanc",
 "Jens Redemann",
 "Connor Flynn",
 "Kristina Pistone",

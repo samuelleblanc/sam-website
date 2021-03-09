@@ -4,7 +4,7 @@
 #
 title = "samuelleblanc/fp: Moving Lines: NASA airborne research flight planning tool release (Version v1.21)"
 date = "2018-03-01T00:00:00"
-authors = ["Samuel LeBlanc"]
+authors = ["Samuel E. LeBlanc"]
 publication_types = ["0"]
 publication = "Zenodo"
 abstract = "Flight planning tool for NASA Airborne science, developed for use in the NASA Earth Venture (2) atmospheric science field mission: ORACLES [ObseRvations of Aerosols above CLouds and their intEractionS](https://espo.nasa.gov/oracles) and many other NASA airborne field missions."
