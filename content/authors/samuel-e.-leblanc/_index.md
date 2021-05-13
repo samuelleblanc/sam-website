@@ -11,7 +11,7 @@ interests:
   - Hyperspectral remote sensing of clouds and aerosol
   - Climate change and radiative effects
   - Airborne instrumentations and observations
-  - Mountain biking, road cycling, skiing, surfing, photgraphy, making things
+  - Mountain biking, road cycling, skiing, surfing, photography, making things
 
 organizations:
   - name: Bay Area Environmental Research Insitute
