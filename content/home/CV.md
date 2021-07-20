@@ -58,8 +58,8 @@ group_logo2 = "logo/nasa_logo.png"
 [service]
   service = [
     "Conference session chair and co-convener (AGU, AMS, IAMAS)",
-    "Peer review articles (JGR: Atmospheres, ACP, AMT, MDPI:Atmosphere)",
-    "Proposal panelist reviewer (NASA ROSES, NASA NPP, DOE ARM)",
+    "Peer review articles (JGR: Atmospheres, ACP, AMT, MDPI:Atmosphere, AMS:J. Applied Met. and Clim.)",
+    "Proposal panelist reviewer (NASA ROSES, NASA NPP, DOE ASR/ARM)",
     "Queen's golden jubilee medalist",
     "Maritime Central Airways awardee",
 	"Numerous NASA group achievement award recipient ([ARISE](https://espo.nasa.gov/arise/content/ARISE), [SEAC4RS](https://www.nasa.gov/mission_pages/seac4rs/index.html), [ATTREX](https://espo.nasa.gov/attrex/content/ATTREX), [KORUS-AQ](https://espo.nasa.gov/korus-aq/content/KORUS-AQ), [ORACLES](https://espo.nasa.gov/oracles),[NAAMES](https://naames.larc.nasa.gov/))",
