@@ -14,4 +14,5 @@ tags = []
 url_pdf = "https://doi.org/10.5194/acp-2020-1218"
 doi = "10.5194/acp-2020-1218"
 math = true
+featured = true
 +++
