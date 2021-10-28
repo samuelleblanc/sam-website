@@ -1,6 +1,6 @@
 # the bibtex file to load data from 
 
-bibtexfile = "Q2_2021.bib"
+bibtexfile = "Q3_2021.bib"
 
 # the build directory (relative path)
 
@@ -30,14 +30,14 @@ url_pdf_usedoi = true
   # the publication.i
   #[publications.choi_korusaq_aod]
   #bibtexkey = "CHOI2021"
-  [publications.chang_oracles_aod]
-  bibtexkey = "Chang2021"
+  [publications.baibakov_oilsands]
+  bibtexkey = "Baibakov2021"
 
-  [publications.cochrane_oracles_dare_fx]
-  bibtexkey = "Cochrane2021"
+  #[publications.cochrane_oracles_dare_fx]
+  #bibtexkey = "Cochrane2021"
 
-  [publications.gupta_oracles_cloud_aerosol_interaction]
-  bibtexkey = "Gupta2021"
+  #[publications.gupta_oracles_cloud_aerosol_interaction]
+  #bibtexkey = "Gupta2021"
 
 #  [publications.moving_lines]
 #  bibtexkey = "samuel_leblanc_2018_1478126"
