@@ -12,7 +12,7 @@ subtitle = "Curriculum Vitae"
 weight = 5
 
 # CV location
-cv_pdf = "./files/LeBlanc.pdf"
+cv_pdf = "./files/LeBlanc_cv_2pager.pdf"
 
 # Group Logo
 group_logo = "logo/baeri-logo.png"

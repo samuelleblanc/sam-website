@@ -51,7 +51,6 @@ social:
     link: https://www.instagram.com/samuel.elie.leblanc/
   - icon: cv
     icon_pack: ai
-    link: ../files/LeBlanc.pdf
 
 education:
   courses:
