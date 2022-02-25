@@ -11,7 +11,7 @@ abstract = "In this work we report the airborne aerosol optical depth (AOD) from
 featured = true
 projects = []
 tags = []
-url_pdf = "https://doi.org/10.5194/acp-2021-10671-2021"
-doi = "10.5194/acp-2021-10671-2021"
+url_pdf = "https://doi.org/10.5194/acp-21-10671-2021"
+doi = "10.5194/acp-21-10671-2021"
 math = true
 +++
