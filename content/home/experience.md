@@ -31,6 +31,8 @@ date_format = "Jan 2006"
   * PI (deputy-PI in 2016/2017) for 4STAR instrument during ORACLES and part of flight planning team and flight scientist.
   * Lead and support the deployment of 4STAR during field missions, and the continual improvement of the instrument’s software, hardware, and calibration efforts.
   * Quantify global direct radiative effect from combined MODIS-OMI-CALIPSO aerosol retrieval.
+  * Science PI for technology development muSSTAR; miniaturization of 4STAR.  
+  * Lead retrieval developer for cloud microphysical and optical properties, and analysist.
   """
 
 [[experience]]
