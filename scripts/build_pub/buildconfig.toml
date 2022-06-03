@@ -1,6 +1,6 @@
 # the bibtex file to load data from 
 
-bibtexfile = "Q3_2021.bib"
+bibtexfile = "Q1_2022.bib"
 
 # the build directory (relative path)
 
@@ -27,11 +27,16 @@ url_pdf_usedoi = true
 
 [publications]
   # The name of each publication (here: "ucsc_fda") is used to generate the directory name for
-  # the publication.i
+  # the publication.
+  [publications.Cochrane2022_ORACLES_heating_rate]
+  bibtexkey = "Cochrane2022"
+
+  [publications.Norgren2022_AOD_cirrusOD_SPN]
+  bibtexkey = "Norgren2022"
   #[publications.choi_korusaq_aod]
   #bibtexkey = "CHOI2021"
-  [publications.baibakov_oilsands]
-  bibtexkey = "Baibakov2021"
+  #[publications.baibakov_oilsands]
+  #bibtexkey = "Baibakov2021"
 
   #[publications.cochrane_oracles_dare_fx]
   #bibtexkey = "Cochrane2021"
