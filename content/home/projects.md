@@ -46,7 +46,7 @@ subtitle = ""
 
   # For Showcase view, flip alternate rows?
   flip_alt_rows = true
-  [[spacing.padding]] = [0, 0, 0, 0]
+  #  [[spacing.padding]] = [0, 0, 0, 0]
 
 [design.background]
   # Apply a background color, gradient, or image.
