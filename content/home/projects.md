@@ -42,10 +42,11 @@ subtitle = ""
   #   2 = Compact
   #   3 = Card
   #   5 = Showcase
-  view = 3
+  view = 5
 
   # For Showcase view, flip alternate rows?
-  flip_alt_rows = false
+  flip_alt_rows = true
+  spacing = {padding: [0, 0, 0, 0]}
 
 [design.background]
   # Apply a background color, gradient, or image.
