@@ -66,4 +66,3 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-{{< twitter DrLeBlanc_NASA >}}
