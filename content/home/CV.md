@@ -58,7 +58,7 @@ group_logo2 = "logo/nasa_logo.png"
 [service]
   service = [
     "Conference session chair and co-convener (AGU, AMS, IAMAS)",
-    "Peer review articles (JGR: Atmospheres, ACP, AMT, MDPI:Atmosphere, AMS:J. Applied Met. and Clim.)",
+    "Peer review articles (JGR: Atmospheres, ACP, AMT, MDPI:Atmosphere, AMS:J. Applied Met. and Clim., AISR)",
     "Proposal panelist reviewer (NASA ROSES, NASA NPP, DOE ASR/ARM)",
     "Queen's golden jubilee medalist",
     "Maritime Central Airways awardee",
