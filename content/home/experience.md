@@ -25,6 +25,11 @@ date_format = "Jan 2006"
   date_start = "2016-01-28"
   date_end = ""
   description = """
+Research flight planner:  
+ * Develop research flight planning tool for optimising sampling and instrumentation efficiency, supporting multiple airborne platforms, satellites, and flight modules for dynamical atmospheric sampling.
+ * ARCSIX, May-August 2024, NASA P3, NASA G-III, and Spec Inc. Learjet
+ * PACE-PAX, August-September 2024, NASA ER-2, NPS Twin Otter
+
   Part of the Sunphotometer-Satellite team within the Earth Science Division. 
   Experience include:
   
