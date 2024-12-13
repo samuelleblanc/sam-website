@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "AGU Fall 2024 Poster Presentation"
-event: "Planning and flying research flights during the suborbital airborne field campaigns ARCSIX and PACE-PAX"
+event: "A53D-2107: Planning and flying research flights during the suborbital airborne field campaigns ARCSIX and PACE-PAX"
 event_url: https://eppro01.ativ.me/web/page.php?page=Session&project=AGU24&id=p1710740-185590
 location: Washington, DC
 address:
@@ -21,7 +21,7 @@ date_end: 2024-12-13T17:30:00-04:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: 2024-12-13T01:00:00-08:00
+publishDate: 2024-12-12T01:00:00-08:00
 
 authors: ['Samuel LeBlanc']
 tags: ['PACE-PAX','ARCSIX','flight planning','Airborne']

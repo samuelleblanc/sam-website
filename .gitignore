@@ -3,3 +3,7 @@
 
 # Hugo
 /resources/
+public/
+public/*
+
+
