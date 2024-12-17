@@ -8,7 +8,7 @@ date: "2024-11-26T00:00:00Z"
 # Optional external URL for project (replaces project detail page).
 external_link: https://www.nasa.gov/atmospheric-composition-and-dynamics-missions-projects/
 
-#image:
-#  caption: PACE logo
-#  focal_point: Smart
+image:
+  caption: AirSHARP 2024 image
+  focal_point: Smart
 ---
