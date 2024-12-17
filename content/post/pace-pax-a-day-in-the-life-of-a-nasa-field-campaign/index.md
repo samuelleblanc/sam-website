@@ -9,7 +9,6 @@ summary: >-
 
 
   https://blogs.nasa.gov/pace/2024/12/17/pace-pax-a-day-in-the-life-of-a-nasa-field-campaign/
-  {{< youtube id="cCsuck3dJU4" >}} 
 header:
   caption: NASA PACE mission post showcasing PACE-PAX campaign with Samuel LeBlanc's flight planning
   image: ""
