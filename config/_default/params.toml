@@ -115,7 +115,7 @@ directions = ""
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-#  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/DrLeBlanc_NASA"},
+  {icon = "plane", icon_pack = "fas", name = "NASA Airborne Science Program", link = "https://airbornescience.nasa.gov/person/Samuel_LeBlanc"},
   {icon = "instagram", icon_pack = "fab", name = "My instagram", link = "https://www.instagram.com/samuel.elie.leblanc/"},
 #  {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
 #  {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
