@@ -1,46 +1,47 @@
-{{- /* Build a plain-text AGU-like citation from page params. */ -}}
+{{- /* Hugo-safe formatted citation builder (no func) */ -}}
 {{- $p := .Params -}}
 
-{{- /* Year */ -}}
+{{- /* Year at end */ -}}
 {{- $year := "" -}}
 {{- with $p.date -}}
   {{- $year = (dateFormat "2006" .) -}}
 {{- end -}}
 
-{{- /* Journal from publication: strip markdown italics and leading "in " */ -}}
+{{- /* Journal from publication: seems like 'in *Earth System Science Data*' */ -}}
 {{- $journal := $p.publication | default "" -}}
 {{- $journal = replace $journal "*" "" -}}
 {{- $journal = replaceRE `(?i)^\s*in\s+` "" $journal -}}
 {{- $journal = trim $journal " " -}}
 
-{{- /* Author formatter: "Logan T. Mitchell" -> "Mitchell, L. T." */ -}}
-{{- $fmtAuthor := func ( $name string ) string -}}
-  {{- $name = trim $name " " -}}
-  {{- $parts := split $name " " -}}
-  {{- if lt (len $parts) 2 -}}
-    {{- return $name -}}
-  {{- end -}}
-  {{- $last := index $parts (sub (len $parts) 1) -}}
-  {{- $given := first (sub (len $parts) 1) $parts -}}
-  {{- $inits := slice -}}
-  {{- range $given -}}
-    {{- $g := . -}}
-    {{- if (findRE `\.` $g) -}}
-      {{- $inits = $inits | append $g -}}
-    {{- else -}}
-      {{- $inits = $inits | append (printf "%c." (index $g 0)) -}}
-    {{- end -}}
-  {{- end -}}
-  {{- return (printf "%s, %s" $last (delimit $inits " ")) -}}
-{{- end -}}
+{{- $title := $p.title | default "" -}}
+{{- $doi := $p.doi | default "" -}}
 
+{{- /* Authors: "Logan T. Mitchell" -> "Mitchell, L. T." */ -}}
 {{- $authors := $p.authors | default (slice) -}}
 {{- $aFmt := slice -}}
+
 {{- range $authors -}}
-  {{- $aFmt = $aFmt | append ($fmtAuthor .) -}}
+  {{- $name := trim . " " -}}
+  {{- $parts := split $name " " -}}
+  {{- if lt (len $parts) 2 -}}
+    {{- $aFmt = $aFmt | append $name -}}
+  {{- else -}}
+    {{- $last := index $parts (sub (len $parts) 1) -}}
+    {{- $given := first (sub (len $parts) 1) $parts -}}
+    {{- $inits := slice -}}
+    {{- range $given -}}
+      {{- $g := . -}}
+      {{- if (findRE `\.` $g) -}}
+        {{- $inits = $inits | append $g -}}
+      {{- else -}}
+        {{- $inits = $inits | append (printf "%c." (index $g 0)) -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $aFmt = $aFmt | append (printf "%s, %s" $last (delimit $inits " ")) -}}
+  {{- end -}}
 {{- end -}}
 
-{{- /* Join authors with Oxford comma + and */ -}}
+{{- /* Join authors with Oxford comma and 'and' */ -}}
 {{- $authorStr := "" -}}
 {{- if eq (len $aFmt) 1 -}}
   {{- $authorStr = index $aFmt 0 -}}
@@ -52,16 +53,13 @@
   {{- $authorStr = printf "%s, and %s" (delimit $allButLast ", ") $lastA -}}
 {{- end -}}
 
-{{- $title := $p.title | default "" -}}
-{{- $doi := $p.doi | default "" -}}
-
-{{- /* Build pieces and omit missing fields cleanly */ -}}
+{{- /* Build: Authors, Title, Journal, doi:..., YEAR. (year at end) */ -}}
 {{- $pieces := slice -}}
 {{- if $authorStr }}{{- $pieces = $pieces | append $authorStr -}}{{- end -}}
-{{- if $year }}{{- $pieces = $pieces | append (printf "(%s)" $year) -}}{{- end -}}
 {{- if $title }}{{- $pieces = $pieces | append $title -}}{{- end -}}
 {{- if $journal }}{{- $pieces = $pieces | append $journal -}}{{- end -}}
 {{- if $doi }}{{- $pieces = $pieces | append (printf "doi:%s" $doi) -}}{{- end -}}
+{{- if $year }}{{- $pieces = $pieces | append $year -}}{{- end -}}
 
 {{- if gt (len $pieces) 0 -}}
   {{- printf "%s." (delimit $pieces ", ") -}}
